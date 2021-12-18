@@ -1,0 +1,22 @@
+{
+  "name": "forms-project",
+  "version": "1.0.0",
+  "description": "Backend Forms Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "nodemon ."
+  },
+  "author": "Javier Rubin",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
